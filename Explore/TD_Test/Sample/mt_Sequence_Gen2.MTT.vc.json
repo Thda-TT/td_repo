@@ -107,7 +107,6 @@
       "objectLabel" : "Sequence_Gen2.txt",
       "useExactSrcNames" : false,
       "userUpdated" : true,
-      "targetSchemaMode" : "DONT_APPLY_CHANGES",
       "runtimeParameterData" : {
         "connectionRuntimeParameter" : false,
         "objectRuntimeParameter" : false
@@ -153,5 +152,5 @@
   "allowMaxFieldLength" : false,
   "specialCharacterSupport" : false,
   "midstreamPreview" : false,
-  "vcsExportTime" : "2025-10-30 21:12:45 PDT"
+  "vcsExportTime" : "2025-10-30 21:25:06 PDT"
 }

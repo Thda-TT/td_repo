@@ -162,6 +162,28 @@
             ]
           }
         ],
+        "sessionProperties" : [
+          {
+            "name" : "Append if Exists",
+            "value" : "NO"
+          },
+          {
+            "name" : "Create Target Directory",
+            "value" : "NO"
+          },
+          {
+            "name" : "Header Options",
+            "value" : "Output Field Names"
+          },
+          {
+            "name" : "Output Type",
+            "value" : "File"
+          },
+          {
+            "name" : "Reject file directory",
+            "value" : "/opt/infa1"
+          }
+        ],
         "createTarget" : "true",
         "fieldMappingMode" : "BY_NAME",
         "inputSorted" : "false",
@@ -251,5 +273,5 @@
       }
     ]
   },
-  "vcsExportTime" : "2025-10-30 21:12:44 PDT"
+  "vcsExportTime" : "2025-10-30 21:25:05 PDT"
 }
