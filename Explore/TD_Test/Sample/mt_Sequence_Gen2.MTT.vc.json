@@ -3,6 +3,8 @@
   "runtimeEnvironmentId" : "@8P1KHTiyFpGiIctN7kogcz",
   "runtimeEnvironmentName" : "NDMM0649-PC",
   "maxLogs" : 10,
+  "scheduleId" : "5s4i9IrTn8Bi3hUshoMhOsD000000000001F",
+  "scheduleName" : "TD_New_Schedule",
   "parameters" : [
     {
       "name" : "$Source$",
@@ -52,6 +54,7 @@
       "retainFieldMetadata" : false,
       "useExactSrcNames" : false,
       "userUpdated" : true,
+      "fetchMode" : "ORIGINAL",
       "runtimeParameterData" : {
         "connectionRuntimeParameter" : false,
         "objectRuntimeParameter" : false
@@ -107,6 +110,8 @@
       "objectLabel" : "Sequence_Gen2.txt",
       "useExactSrcNames" : false,
       "userUpdated" : true,
+      "fetchMode" : "ORIGINAL",
+      "targetSchemaMode" : "DONT_APPLY_CHANGES",
       "runtimeParameterData" : {
         "connectionRuntimeParameter" : false,
         "objectRuntimeParameter" : false
@@ -152,5 +157,5 @@
   "allowMaxFieldLength" : false,
   "specialCharacterSupport" : false,
   "midstreamPreview" : false,
-  "vcsExportTime" : "2025-10-30 21:25:06 PDT"
+  "vcsExportTime" : "2025-10-30 22:06:17 PDT"
 }
