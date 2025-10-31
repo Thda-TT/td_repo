@@ -17,13 +17,13 @@
       } ],
       "additionalInfo" : {
         "description" : null,
-        "contentType" : null,
+        "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2025-10-31T04:12:46.029Z",
+  "updateTime" : "2025-10-31T04:25:07.268Z",
   "objectRefs" : [ {
     "id" : "8P1KHTiyFpGiIctN7kogcz",
     "name" : "NDMM0649-PC",
@@ -82,7 +82,7 @@
       } ],
       "additionalInfo" : {
         "description" : "",
-        "contentType" : null,
+        "contentType" : "JSON",
         "documentState" : "VALID"
       }
     },
