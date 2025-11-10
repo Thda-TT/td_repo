@@ -1,0 +1,64 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>D0zFMi4tciSrZMS-gt-4327972-2025-11-10T09:55:56.479Z::tf.xml</types1:EntryId>
+      <types1:Name>Taskflow_Pyae</types1:Name>
+      <types1:MimeType>application/xml+taskflow</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>thda@sandbox.com</types1:CreatedBy>
+      <types1:CreationDate>2025-11-10T09:55:56Z</types1:CreationDate>
+      <types1:ModifiedBy>thda@sandbox.com</types1:ModifiedBy>
+      <types1:ModificationDate>2025-11-10T09:56:17Z</types1:ModificationDate>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>thda@sandbox.com</types1:PublishedBy>
+      <types1:PublicationDate>2025-11-10T09:56:22Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/tf.Taskflow_Pyae/Taskflow_Pyae.tf.xml</types1:PublishedContributionId>
+      <types1:Entry>
+         <taskflow xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                   xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
+                   xmlns:list="urn:activevos:spi:list:functions"
+                   displayName="Taskflow_Pyae"
+                   name="Taskflow_Pyae"
+                   overrideAPIName="false">
+            <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"/>
+            <appliesTo/>
+            <description/>
+            <tags/>
+            <generator>Informatica Process Designer 11</generator>
+            <notes/>
+            <deployment skipIfRunning="false" suspendOnFault="true" tracingLevel="verbose">
+               <rest/>
+            </deployment>
+            <extData>
+               <nvpair name="treatEmptyStringAsNotNull">false</nvpair>
+               <nvpair name="treatEmptyObjectListAsArray">false</nvpair>
+            </extData>
+            <flow id="a">
+               <start id="b">
+                  <link id="mhsyun50" targetId="mhsyun4z"/>
+               </start>
+               <wait id="mhsyun4z">
+                  <title>Wait 1</title>
+                  <duration source="formula">
+                     <function name="duration_expression">
+                        <arg name="value">2</arg>
+                        <arg name="scale">M</arg>
+                        <arg name="businessDays"/>
+                     </function>
+                  </duration>
+                  <link id="mhsyun52" targetId="c"/>
+               </wait>
+               <end id="c"/>
+            </flow>
+         </taskflow>
+      </types1:Entry>
+      <types1:GUID>0RJsUBWsZvug0IUqp9eS0u</types1:GUID>
+      <types1:DisplayName>Taskflow_Pyae</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2025-11-10T09:57:14.175Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>

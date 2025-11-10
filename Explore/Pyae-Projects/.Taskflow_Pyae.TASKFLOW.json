@@ -1,0 +1,27 @@
+{
+  "objectInfo" : {
+    "id" : "0RJsUBWsZvug0IUqp9eS0u",
+    "name" : "Taskflow_Pyae",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "D0zFMi4tciSrZMS-gt-4327972-2025-11-10T09:55:56.479Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2025-11-10T09:57:14.542Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
