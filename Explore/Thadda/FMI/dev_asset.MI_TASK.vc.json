@@ -1,0 +1,39 @@
+{
+  "orgId" : "5s4i9IrTn8Bi3hUshoMhOs",
+  "icsGuid" : "43QO6KMSUgxdDwtT8CiDkR",
+  "name" : "dev_asset",
+  "id" : 33451,
+  "sourceType" : "CONNECTION",
+  "sourceConnection" : {
+    "type" : "Advanced SFTP V2",
+    "name" : "con_sftp_td",
+    "connId" : "010PP60B000000000007"
+  },
+  "targetConnection" : {
+    "type" : "local"
+  },
+  "lastModified" : 1750041904000,
+  "sourceOptions" : {
+    "filePatternFilter" : "true",
+    "src.file.pattern" : "*.csv",
+    "src.file.delete" : "KEEP",
+    "src.download.path" : "/opt/infa1/FlatFile",
+    "filePickupOption" : "PATTERN",
+    "src.file.pattern.type" : "WILDCARD",
+    "batchSize" : "5",
+    "fileStability" : "false"
+  },
+  "targetOptions" : {
+    "fileExistsAction" : "OVERWRITE",
+    "tgt.download.path" : "/opt/infa1/FlatFile/Target01"
+  },
+  "agentGroup" : "010PP625000000000007",
+  "filePickupOption" : "PATTERN",
+  "threadCount" : 1,
+  "logLevel" : "NORMAL",
+  "allowConcurrency" : false,
+  "fileListenerAsSource" : false,
+  "fileListenerAsTrigger" : false,
+  "identifier" : "33451",
+  "vcsExportTime" : "2025-11-09 23:36:02 PST"
+}
