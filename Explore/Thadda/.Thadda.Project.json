@@ -1,8 +1,8 @@
 {
   "objectInfo" : {
-    "id" : "484XK2IENbPl77MF33SisM",
-    "name" : "Sample",
-    "type" : "Folder",
+    "id" : "6Lm0RoK2yArfNULQVWGMa9",
+    "name" : "Thadda",
+    "type" : "Project",
     "metadata" : {
       "modelVersion" : {
         "major" : 0,
@@ -18,7 +18,7 @@
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2025-11-13T03:31:19.395Z",
+  "updateTime" : "2025-11-13T03:26:50.630Z",
   "objectRefs" : [ ],
   "readableFileExtension" : null,
   "readableFilePresent" : false

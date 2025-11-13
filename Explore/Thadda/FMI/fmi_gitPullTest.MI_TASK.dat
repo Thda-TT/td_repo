@@ -1,0 +1,49 @@
+{
+  "orgId" : "5s4i9IrTn8Bi3hUshoMhOs",
+  "icsGuid" : "7IZg3akQIZ4ePsvsuJXdMt",
+  "name" : "fmi_gitPullTest",
+  "id" : 33244,
+  "description" : "",
+  "sourceType" : "CONNECTION",
+  "sourceConnection" : {
+    "type" : "Advanced SFTP V2",
+    "name" : "con_sftp_BI_send_01",
+    "connId" : "010PP60B000000000007"
+  },
+  "targetConnection" : {
+    "type" : "local",
+    "name" : "",
+    "connId" : ""
+  },
+  "taskActions" : [ ],
+  "lastModified" : 1749452929000,
+  "sourceOptions" : {
+    "filePatternFilter" : "true",
+    "src.file.pattern" : "*",
+    "src.file.delete" : "KEEP",
+    "src.download.path" : "/",
+    "filePickupOption" : "PATTERN",
+    "src.file.pattern.type" : "WILDCARD",
+    "batchSize" : "5",
+    "fileStability" : "false"
+  },
+  "targetOptions" : {
+    "fileExistsAction" : "OVERWRITE",
+    "tgt.download.path" : "C:\\Users\\thda\\Documents\\TD001"
+  },
+  "agentGroup" : "010PP625000000000007",
+  "job" : "",
+  "schedule" : "",
+  "fileListener" : null,
+  "fileListenerName" : null,
+  "fileListenerAction" : null,
+  "emailIds" : null,
+  "filePickupOption" : "PATTERN",
+  "lastRun" : null,
+  "threadCount" : 1,
+  "logLevel" : "NORMAL",
+  "allowConcurrency" : false,
+  "identifier" : "33244",
+  "fileListenerAsSource" : false,
+  "fileListenerAsTrigger" : false
+}

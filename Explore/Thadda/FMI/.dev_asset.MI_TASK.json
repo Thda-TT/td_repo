@@ -1,32 +1,29 @@
 {
   "objectInfo" : {
-    "id" : "7YQhKyuS8PblEfkgWo9YQk",
-    "name" : "m_Sequence_Gen2",
-    "type" : "DTEMPLATE",
+    "id" : "43QO6KMSUgxdDwtT8CiDkR",
+    "name" : "dev_asset",
+    "type" : "MI_TASK",
     "metadata" : {
       "modelVersion" : {
-        "major" : 0,
+        "major" : 1,
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010PP61700000000000U"
+        "repoHandle" : "33451"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : [ ],
       "additionalInfo" : {
         "description" : "",
-        "contentType" : "JSON",
+        "contentType" : "Binary",
         "documentState" : "VALID"
       }
     }
   },
-  "dataFileExtension" : "zip",
-  "updateTime" : "2025-11-13T03:31:19.396Z",
+  "dataFileExtension" : "dat",
+  "updateTime" : "2025-11-13T03:26:50.627Z",
   "objectRefs" : [ {
-    "id" : "1SNelRtW6IldJ9RKucYGIa",
-    "name" : "MSDA_FlatFileLocalC",
+    "id" : "34t7zjvxrAjj67KOLGxRU9",
+    "name" : "con_sftp_td",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -34,7 +31,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010PP60B000000000003"
+        "repoHandle" : "010PP60B000000000007"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -45,22 +42,22 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "60PosOEIj6ib7XpJPVuRmm",
-    "name" : "TD_Oracle",
-    "type" : "Connection",
+    "id" : "e97oC80zbY7ejMbhxXZokb",
+    "name" : "JPW-6006-64-AAD",
+    "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
         "major" : 0,
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010PP60B000000000006"
+        "repoHandle" : "010PP625000000000007"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
         "description" : null,
         "contentType" : "JSON",
-        "documentState" : "COMPLETE"
+        "documentState" : "VALID"
       }
     },
     "path" : "/SYS"
