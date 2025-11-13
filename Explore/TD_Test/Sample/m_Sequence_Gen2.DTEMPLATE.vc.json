@@ -157,7 +157,18 @@
             "rules" : [
               {
                 "bulkRename" : "false",
-                "include" : "true"
+                "include" : "true",
+                "names" : [
+                  {
+                    "inputName" : "CURRDEC"
+                  },
+                  {
+                    "inputName" : "CURRKEY"
+                  },
+                  {
+                    "inputName" : "NEXTVAL"
+                  }
+                ]
               }
             ]
           }
@@ -273,5 +284,5 @@
       }
     ]
   },
-  "vcsExportTime" : "2025-10-30 22:06:17 PDT"
+  "vcsExportTime" : "2025-11-12 19:31:18 PST"
 }

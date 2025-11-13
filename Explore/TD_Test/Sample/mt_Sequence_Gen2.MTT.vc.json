@@ -54,7 +54,6 @@
       "retainFieldMetadata" : false,
       "useExactSrcNames" : false,
       "userUpdated" : true,
-      "fetchMode" : "ORIGINAL",
       "runtimeParameterData" : {
         "connectionRuntimeParameter" : false,
         "objectRuntimeParameter" : false
@@ -110,8 +109,6 @@
       "objectLabel" : "Sequence_Gen2.txt",
       "useExactSrcNames" : false,
       "userUpdated" : true,
-      "fetchMode" : "ORIGINAL",
-      "targetSchemaMode" : "DONT_APPLY_CHANGES",
       "runtimeParameterData" : {
         "connectionRuntimeParameter" : false,
         "objectRuntimeParameter" : false
@@ -157,5 +154,5 @@
   "allowMaxFieldLength" : false,
   "specialCharacterSupport" : false,
   "midstreamPreview" : false,
-  "vcsExportTime" : "2025-10-30 22:06:17 PDT"
+  "vcsExportTime" : "2025-11-12 19:31:19 PST"
 }
