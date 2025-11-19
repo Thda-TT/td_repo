@@ -118,7 +118,6 @@
       "objectLabel" : "tgt_result_usw3.csv",
       "useExactSrcNames" : false,
       "userUpdated" : true,
-      "targetSchemaMode" : "DONT_APPLY_CHANGES",
       "runtimeParameterData" : {
         "connectionRuntimeParameter" : false,
         "objectRuntimeParameter" : false
@@ -158,5 +157,5 @@
   "allowMaxFieldLength" : false,
   "specialCharacterSupport" : false,
   "midstreamPreview" : false,
-  "vcsExportTime" : "2025-11-19 01:36:12 PST"
+  "vcsExportTime" : "2025-11-19 01:38:03 PST"
 }
