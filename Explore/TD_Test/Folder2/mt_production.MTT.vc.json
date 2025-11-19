@@ -63,6 +63,7 @@
       "retainFieldMetadata" : false,
       "useExactSrcNames" : false,
       "userUpdated" : true,
+      "fetchMode" : "ORIGINAL",
       "runtimeParameterData" : {
         "connectionRuntimeParameter" : false,
         "objectRuntimeParameter" : false
@@ -118,6 +119,7 @@
       "objectLabel" : "tgt_result_usw3.csv",
       "useExactSrcNames" : false,
       "userUpdated" : true,
+      "fetchMode" : "ORIGINAL",
       "runtimeParameterData" : {
         "connectionRuntimeParameter" : false,
         "objectRuntimeParameter" : false
@@ -157,5 +159,5 @@
   "allowMaxFieldLength" : false,
   "specialCharacterSupport" : false,
   "midstreamPreview" : false,
-  "vcsExportTime" : "2025-11-19 01:38:03 PST"
+  "vcsExportTime" : "2025-11-19 01:41:52 PST"
 }
