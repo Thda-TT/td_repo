@@ -23,7 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2025-11-20T02:04:22.295Z",
+  "updateTime" : "2025-11-20T02:06:10.509Z",
   "objectRefs" : [ {
     "id" : "8P1KHTiyFpGiIctN7kogcz",
     "name" : "NDMM0649-PC",
@@ -81,7 +81,7 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "edit this folder",
+        "description" : "check out this folder and edit",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }

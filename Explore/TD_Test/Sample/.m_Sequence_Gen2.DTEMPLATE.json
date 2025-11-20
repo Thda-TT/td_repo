@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "edit this folder",
+        "description" : "check out this folder and edit",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2025-11-20T02:04:22.298Z",
+  "updateTime" : "2025-11-20T02:06:10.511Z",
   "objectRefs" : [ {
     "id" : "1SNelRtW6IldJ9RKucYGIa",
     "name" : "MSDA_FlatFileLocalC",
