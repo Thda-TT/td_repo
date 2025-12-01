@@ -7,7 +7,7 @@
   "sourceType" : "CONNECTION",
   "sourceConnection" : {
     "type" : "Advanced SFTP V2",
-    "name" : "con_sftp_BI_send_01",
+    "name" : "con_sftp_td",
     "connId" : "010PP60B000000000007"
   },
   "targetConnection" : {
@@ -16,7 +16,7 @@
     "connId" : ""
   },
   "taskActions" : [ ],
-  "lastModified" : 1749452929000,
+  "lastModified" : 1763004464000,
   "sourceOptions" : {
     "filePatternFilter" : "true",
     "src.file.pattern" : "*",
@@ -43,7 +43,7 @@
   "threadCount" : 1,
   "logLevel" : "NORMAL",
   "allowConcurrency" : false,
-  "identifier" : "33244",
   "fileListenerAsSource" : false,
-  "fileListenerAsTrigger" : false
+  "fileListenerAsTrigger" : false,
+  "identifier" : "33244"
 }
