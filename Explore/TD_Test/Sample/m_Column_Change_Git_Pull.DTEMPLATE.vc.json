@@ -89,6 +89,50 @@
             },
             "precision" : 256,
             "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "One"
+            },
+            "name" : "One",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 256,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "Two"
+            },
+            "name" : "Two",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 256,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "Three"
+            },
+            "name" : "Three",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 256,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "Four"
+            },
+            "name" : "Four",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 256,
+            "scale" : 0
           }
         ],
         "dataAdapter" : {
@@ -243,6 +287,70 @@
                     "value" : "Student.csv"
                   }
                 ]
+              },
+              {
+                "name" : "One",
+                "fieldType" : "PARSER",
+                "label" : "One",
+                "nativeName" : "One",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 256,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Student.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "Two",
+                "fieldType" : "PARSER",
+                "label" : "Two",
+                "nativeName" : "Two",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 256,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Student.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "Three",
+                "fieldType" : "PARSER",
+                "label" : "Three",
+                "nativeName" : "Three",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 256,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Student.csv"
+                  }
+                ]
+              },
+              {
+                "name" : "Four",
+                "fieldType" : "PARSER",
+                "label" : "Four",
+                "nativeName" : "Four",
+                "nativeType" : "flat_string",
+                "original" : "false",
+                "precision" : 256,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "Student.csv"
+                  }
+                ]
               }
             ]
           },
@@ -364,5 +472,5 @@
       }
     ]
   },
-  "vcsExportTime" : "2026-01-19 00:00:13 PST"
+  "vcsExportTime" : "2026-01-19 00:22:54 PST"
 }

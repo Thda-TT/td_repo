@@ -51,7 +51,6 @@
       "retainFieldMetadata" : false,
       "useExactSrcNames" : false,
       "userUpdated" : true,
-      "fetchMode" : "ORIGINAL",
       "dataFormat" : {
         "formatId" : "Flat",
         "dataFormatAttributes" : {
@@ -125,12 +124,10 @@
       "objectLabel" : "ColumnUpdate.csv",
       "useExactSrcNames" : false,
       "userUpdated" : true,
-      "fetchMode" : "ORIGINAL",
       "runtimeParameterData" : {
         "connectionRuntimeParameter" : false,
         "objectRuntimeParameter" : false
       },
-      "targetSchemaProviderType" : "SELECTED_OBJECT",
       "restmodernSource" : true,
       "unspecified" : false,
       "fileList" : false
@@ -150,5 +147,5 @@
   "allowMaxFieldLength" : false,
   "specialCharacterSupport" : false,
   "midstreamPreview" : false,
-  "vcsExportTime" : "2026-01-19 00:00:14 PST"
+  "vcsExportTime" : "2026-01-19 00:22:54 PST"
 }
